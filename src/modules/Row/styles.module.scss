@@ -1,0 +1,21 @@
+.rowContainer {
+  display: flex;
+  &:nth-child(2) {
+    .row {
+      border-top: 1px solid #fff;
+    }
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.hints {
+  color: #fff;
+  width: 100px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

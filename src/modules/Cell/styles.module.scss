@@ -1,0 +1,21 @@
+.cell {
+  height: 30px;
+  width: 30px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+  &:hover {
+    cursor: pointer;
+  }
+  &:first-child {
+    border-left: 1px solid #fff;
+  }
+}
+
+.active {
+  background: blue;
+}
+
+.inactive {
+  background: red;
+}

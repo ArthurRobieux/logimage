@@ -1,0 +1,26 @@
+.grid {
+  margin: auto;
+  width: fit-content;
+}
+
+.title {
+  margin: 50px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.columnsHints {
+  margin-left: 110px;
+  color: #fff;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.columnHints {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
